@@ -50,19 +50,10 @@ footer {
 
 /* Selecionando por ID's */
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px 12px;
-
-    background-color: var(--shadow-color);
-    border-radius: 25px; 
-    box-shadow: 0px 0px 12.5px var(--stroke1-color);
-    backdrop-filter: blur(10px); 
-
-    backdrop-filter: blur(4px);
-   -webkit-backdrop-filter: blur(4px);
-
-    transition: border 10s;
 }
 
 
