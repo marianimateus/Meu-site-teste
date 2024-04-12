@@ -95,6 +95,11 @@ footer {
   animation: slide-in 0.2s forwards;
 }
 
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+  transition: 0.1s;
+} 
+
 #switch span {
   display: block;
   width: 64px;
