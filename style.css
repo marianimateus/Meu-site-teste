@@ -12,8 +12,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-star.svg);
-  --stroke1-color: rgba(0, 0, 0, 0.8);
-  --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 .light {
@@ -24,8 +22,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
-  --stroke1-color: rgba(0, 0, 0, 0.4);
-  --shadow-color:rgba(255, 255, 255, 0.2);
 }
 
 /*
@@ -178,4 +174,3 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-
