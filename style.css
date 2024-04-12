@@ -24,12 +24,9 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-/*
-'--text-color: preto' é uma variavel que pode ser usada nos elementos que mudam a cor das palavras 
-*/
-
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body* {
@@ -49,7 +46,7 @@ footer {
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px;
-  padding: 0 24px 12px;
+  padding: 0 24px;
 }
 
 
@@ -66,13 +63,13 @@ footer {
 #profile p {
   font-weight: 500;
   line-height: 24px;
-  margin-top: 8;
+  margin-top: 8px;
 }
 
 /*switch*/
 #switch {
   position: relative;
-  width: 64px;  
+  width: 64px;
 
   margin: 4px auto;
 }
@@ -141,7 +138,7 @@ ul li a {
 /* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
-  border: 1px solid var(--text-color);
+  border: 1.5px solid var(--text-color);
 }
 
 /*social links*/
@@ -150,7 +147,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
 
-  padding: 0px 0;
+  padding: 24px 0;
 
   font-size: 24px;
 }
@@ -173,4 +170,15 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg)
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg)
+  }
 }
