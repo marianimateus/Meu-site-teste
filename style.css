@@ -80,7 +80,7 @@ footer {
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-
+  cursor: pointer;  
   /*posicionamento*/
 
   position: absolute;
